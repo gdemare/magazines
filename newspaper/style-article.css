@@ -1,0 +1,111 @@
+:root {
+    --color-blue: rgb(64,156,255);
+    --color-green: rgb(48, 209, 88);
+    --color-indigo: rgb(94,92,230);
+    --color-orange: rgb(255,159,10);
+    --color-pink: rgb(255,55,95);
+    --color-purple: rgb(191,90,242);
+    --color-red: rgb(255,69,58);
+    --color-teal: rgb(100,210,255);
+    --color-yellow: rgb(255,214,10);
+    --color-gray: rgb(142,142,147);
+    --color-black: rgb(10,10,10);
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	background-color: rgb(32,32,42);
+	padding-top: 2cm;
+	padding-bottom: 2cm;
+	color: #eeeeee;
+	line-height : 32px;
+	line-height: 1.6em;
+	font-size: 20px;
+}
+
+section, header, footer, nav {
+	max-width: 30em;
+	width: 100%;
+}
+
+h1 {
+	line-height: 1.25em;
+}
+
+#description {
+	font-weight: bold;
+}
+
+a, a:hover, a:visited {
+	color: #0095dd;
+	text-decoration: none;
+}
+
+header ul, footer ul, .liste ul {
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+header {
+	border-bottom: solid 1px #eeeeee;
+}
+
+footer {
+	border-top: solid 1px #eeeeee;
+}
+
+header ul li:first-child, footer ul li:first-child, .liste ul li:first-child {
+	flex-grow: 2;
+}
+
+footer ul li:last-child {
+	width: 100%;
+}
+
+.liste {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #eeeeee;
+	border-top: solid 1px #eeeeee;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.liste:last-child {
+	border-bottom: none;
+}
+
+.liste:visited {
+	color: rgb(125,125,125);
+	border-color: rgb(125,125,125);
+}
+
+.liste h1, .liste .description {
+	font-size: 1em;
+	margin: 0px;
+} 
+
+.liste .description {
+	font-size: 0.8em;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+
+.liste ul {
+	margin-top: 0px;
+	line-height: 1em;
+	font-size: 0.8em;
+	width: 100%;
+}
+
+img {
+	display: inline-flex;
+}

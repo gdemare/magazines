@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Terminal=true
+Type=Application
+Name=Magazines
+Exec=/home/guigui/Applications/magazines/main.bash
+Icon=/home/guigui/Applications/magazines/icon-magazines.png
